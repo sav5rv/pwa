@@ -1,0 +1,16 @@
+{
+    "short_name": "Teste Reconhecimento Voz",
+    "name": "Reconhecimento Voz",
+    "icons": [
+      {
+        "src": "img/classroom.png",
+        "sizes": "160x160",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "index.html",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#43a047",
+    "background_color": "#388E3C"
+  }
