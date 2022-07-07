@@ -1,11 +1,13 @@
-const CACHE_NAME = "voz-reconhecimento";
+const URLBASE = 'https://sav5rv.github.io/pwa/';
+const CACHE_NAME = 'voz-reconhecimento';
 const assets = [
-    "/",
-    "/index.html",
-    "/manifest.json",
-    "/css/estilo.css",
-    "js/instalar.js",
-    "/js/app.js"
+  URLBASE,
+  URLBASE + 'index.html',
+  URLBASE + 'manifest.json',
+  URLBASE + 'js/instalar.js',
+  URLBASE + 'js/app.js',
+  URLBASE + 'img/icon.ico',
+  URLBASE + 'img/icon.png  ',
 ];
 
 self.addEventListener('install', (e) => {
