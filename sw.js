@@ -1,4 +1,4 @@
-const URLBASE = 'https://github.com/sav5rv/pwa/';
+const URLBASE = ' https://sav5rv.github.io/pwa/';
 const CACHE_NAME = 'voz-reconhecimento';
 const assets = [
   URLBASE,
